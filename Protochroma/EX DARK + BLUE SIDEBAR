@@ -1,0 +1,65 @@
+/* ==UserStyle==
+@name           Protochroma Extra Dark + Light Blue Sidebar
+@namespace      userstyles.world
+@version        1.0.1
+@description    Extra dark mode but with a light blue sidebar to match the rest of the links
+@author         Werewire
+==/UserStyle== */
+
+
+@-moz-document domain("protochroma.net") {
+/* Most Pages */
+:root {
+    --bg-darkest: #000 !important;
+    --bg-dark: #1f1f1f !important;
+    --bg-middle: #292929 !important;
+    --bg-light: #111111 !important;
+    --bg-lightest: #000 !important;
+    --ac-border: #bdfff9 !important;
+    --ac-link: #bdfff9 !important;
+    --ac-text: #a6a6a6 !important;
+    --g-text: #fff !important;
+    --g-link: #bdfff9 !important;
+    --g-link-hover: #cccccc !important;
+    --g-bwtag-hover: #bdfff9 !important;
+    --g-highlight: #747575 !important;
+    --g-border: #000000 !important;
+    --g-overlay: rgba(140, 140, 140, 0.5) !important;
+    --bio-text: #000000 !important;
+    --bio-link: #bdfff9 !important;
+    --bio-link-hover: #cccccc !important;
+    --bio-accent: #969696 !important;
+    --bio-darkest: #000 !important;
+    --bio-dark: #585858 !important;
+    --bio-middle: #292929 !important;
+    --bio-light: #D0D0D0 !important;
+    --bio-lightest: #FFFFFF !important;
+    --svg-sm: #fff !important;
+}
+/* Ready To Grow Creature */
+.indvhighlight {
+    background-color: #747575 !important;
+    border: 2px solid var(--ac-border);
+}
+/* Profile Buttons */
+.slots {
+    border-radius: 4px;
+    padding: 4px;
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: 1px dotted #000;
+    position: relative;
+}
+
+.limiter {
+    border-radius: 4px;
+    padding: 4px;
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: 1px dotted #000;
+    position: relative;
+    z-index: 2;
+}
+}
