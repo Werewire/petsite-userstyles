@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           Flight rising - No Extra Padding on gathering
+@namespace      github.com/openstyles/stylus
+@version        1.0.2
+@description    Sick of that thing.
+@author         Werewire
+==/UserStyle== */
+
+@-moz-document url-prefix("https://flightrising.com/main.php?p=gather") {
+    div:nth-of-type(7) {
+    display: none !important;
+}
+}
