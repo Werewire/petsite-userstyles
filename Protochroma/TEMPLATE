@@ -1,0 +1,174 @@
+/* Front Page */
+.registerlink:link, .registerlink:visited {
+    background-color: #9864a3;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 8px;
+    border-radius: 4px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: solid 1px #99ecc4;
+}
+    
+.newstitle {
+    background-color: #9864a3;
+    color: #FFFFFF;
+    padding: 10px 12px 5px 12px;
+    margin: -8px -8px 8px -8px;
+}
+/* Most Pages */
+:root {
+    --bg-darkest: #1a141f !important;
+    --bg-dark: #281d30 !important;
+    --bg-middle: #211828 !important;
+    --bg-light: #36263a !important;
+    --bg-lightest: #372740 !important;
+    --ac-border: #99ecc4 !important;
+    --ac-link: #99ecc4 !important;
+    --ac-text: #70ad85 !important;
+    --g-text: #fff !important;
+    --g-link: #99ecc4 !important;
+    --g-link-hover: #008800 !important;
+    --g-bwtag-hover: #70ad85 !important;
+    --g-highlight: #372740 !important;
+    --g-border: #70ad85 !important;
+    --g-overlay: #1a141f !important;
+    --bio-text: #99ecc4 !important;
+    --bio-link: #99ecc4 !important;
+    --bio-link-hover: #008800 !important;
+    --bio-accent: #99ecc4 !important;
+    --bio-darkest: #281d30 !important;
+    --bio-dark: #585858 !important;
+    --bio-middle: #1a141f !important;
+    --bio-light: #D0D0D0 !important;
+    --bio-lightest: #FFFFFF !important;
+    --svg-sm: #70ad85 !important;
+}
+/* Ready To Grow Creature */
+.indvhighlight {
+    background-color: #9864a3 !important;
+    border: 2px solid var(--ac-border);
+}
+/* Profile Buttons */
+.slots {
+    border-radius: 4px;
+    padding: 4px;
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #281d30 !important;
+    border: 1px dotted #281d30 !important;
+    position: relative;
+}
+
+.limiter {
+    border-radius: 4px;
+    padding: 4px;
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #281d30 !important;
+    border: 1px dotted #281d30 !important;
+    position: relative;
+    z-index: 2;
+}
+
+.groupname {
+    background-color: #281d30 !important;
+    border-radius: 4px;
+    vertical-align: middle;
+    padding: 4px;
+    display: inline;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.hpbartag {
+    border-radius: 4px;
+    background-color: #281d30 !important;
+    padding: 4px 6px 4px 6px;
+    display: inline-block;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+a.pagebar:link, a.pagebar:visited {
+    min-width: 50px;
+    min-height: 20px;
+    background-color: #281d30 !important;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    display: block;
+    padding: 4px 4px 4px 4px;
+    border-radius: 4px;
+    margin: 0px 2px 0px 2px;
+    text-align: center;
+}
+
+.chartitle {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    line-height: 20px;
+    background-color: #281d30 !important;
+    color: #FFFFFF;
+    text-align: center;
+    word-break: break-word;
+    margin-top: 5px;
+    padding: 0px 2px 2px 0px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 1px solid #99ecc4 !important;
+    background: #281d30 !important;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: 1px solid var(--g-bwtag-hover);
+    background: #281d30 !important;
+    font-weight: bold;
+    color: var(--g-bwtag-hover);
+}
+/* Creature Tags */
+
+.indvfulltitle {
+    display: block;
+    word-break: break-all;
+    width: 290px;
+    height: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    background-color: #281d30 !important;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+/* Delving */
+.crgbartag {
+    border-radius: 4px;
+    background-color: #281d30 !important;
+    padding: 4px 6px 4px 6px;
+    display: inline-block;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.tooltip, .ttipshort, .tooltiplong {
+    display: inline-block;
+    text-align: center;
+    background-color: #9864a3 !important;
+    padding: 3px 6px 3px 6px;
+    border: 1px dotted #9864a3 !important;
+    color: #FFFFFF;
+    margin: 3px 2px 3px 2px;
+    border-radius: 4px;
+    position: relative;
+}
