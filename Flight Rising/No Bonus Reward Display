@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name           Flight rising - No Bonus Award Display or Fiona Text
+@namespace      github.com/openstyles/stylus
+@version        2.0.0
+@description    Explains itself
+@author         Werewire
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www1.flightrising.com/dragon/") {
+    .feature-bonus-award {
+        display:none !important;
+    }
+}
+
+
+@-moz-document url-prefix("https://www1.flightrising.com/trading/fantastic-familiars/flattery") {
+    /*Fiona - Delete Whole section if unneeded*/
+    .feature-bonus-award {
+        display:none !important;
+    }
+    
+    .bonding-dialog-fiona {
+        display:none !important;
+    }
+    
+    .bonding-dialog-rewards-text-fiona {
+        display:none !important;
+    }
+}
